@@ -32,6 +32,7 @@ int main(){
     for (int i = 0; i < MAX; i++) {
         memo[i] = -1;//indica que o array que armazena resultados ainda não armazenou nada
     }
-	printf("%d\n",achaMelhor(receita, n));
+	printf("A receita com maior lucro é: %d\n",achaMelhor(receita, n));
+    printf(memo[MAX]);
 	return 0;
 }
